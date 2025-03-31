@@ -71,10 +71,14 @@ The Penetration Testing Toolkit is a modular, Python-based tool designed for edu
 - This scans localhost ports 1-1024
 - Output might look like:
 
+![Image](https://github.com/user-attachments/assets/9686bd3c-a98a-4b21-a4aa-b49883bf90a8)
+
 ### SSH Brute Forcer
 - Configuration parameters: sshbrute --target 127.0.0.1
 - This tries default username/password combinations on localhost SSH
 - Output might look like:
+  
+![Image](https://github.com/user-attachments/assets/1c886f0d-16b5-43cf-9db1-6008e8264916)
 
 ## **Troubleshooting**
 1. Module Not Found: If you get "No module named 'paramiko'":
@@ -86,8 +90,12 @@ The Penetration Testing Toolkit is a modular, Python-based tool designed for edu
 
 ## **Validation**
 - Compare port scanning results with nmap:
+  - Nmap is a widely trusted network scanning tool. You can compare your toolkit's results with Nmap's output.
 
-      nmap -p 1-1024 127.0.0.1
+        nmap -p 1-1024 127.0.0.1
+  - Example output - For Port Scanner
+    
+  ![Image](https://github.com/user-attachments/assets/20134a83-cf9c-437b-9409-1eef6855bbc7)
   
 - Test SSH brute-forcing against a controlled server with known credentials
 
