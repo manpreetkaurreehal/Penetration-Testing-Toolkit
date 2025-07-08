@@ -1,17 +1,5 @@
 # Penetration-Testing-Toolkit
 
-COMPANY: CODTECH IT SOLUTIONS
-
-NAME: MANPREET KAUR
-
-INTERN ID: CT6WUNN
-
-DOMAIN: CYBER SECURITY AND ETHICAL HACKING
-
-DURATION: 6 WEEKS
-
-MENTOR: NEELA SANTOSH
-
 ## **Overview**
 
 The Penetration Testing Toolkit is a modular, Python-based tool designed for educational purposes to demonstrate basic penetration testing techniques. It includes two core modules: a Port Scanner for identifying open TCP ports on a target system and an SSH Brute-Forcer for testing SSH login credentials. Built with extensibility in mind, this toolkit serves as a learning resource for security enthusiasts and developers interested in network security.
